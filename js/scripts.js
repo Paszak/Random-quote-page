@@ -26,10 +26,11 @@ function createTweet(inpute) {
 		    $('.tweet').attr('href', tweet);
 	}
 
-	$(document).ready(function() {
+}
+
+$(document).ready(function() {
 		getQuote();
 		$('.trigger').click(function() {
 			getQuote();
 		});
-	});
-}
+});
